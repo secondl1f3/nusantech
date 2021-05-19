@@ -1,5 +1,10 @@
 public class MazeGenerator {
 
+    /**
+     * This method will generate maze based on the given size
+     *
+     * @param size - int
+     */
     public static void generateMaze(int size) {
         int lastIndexFromSize = size * 2;
         int initialSize = 0;
